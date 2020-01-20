@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-readme-index'
   gem 'jekyll-mentions'
   gem 'jekyll-toc'
+  gem 'jekyll-liquify'
   gem 'jemoji'
 end
 

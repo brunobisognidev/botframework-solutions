@@ -1,0 +1,10 @@
+<a href="{{ include.params.ref | liquify }}" class="card">
+    <div class="card-body">
+        {% if include.params.img %}<img src="{{ include.params.img | liquify }}" alt="{{include.params.alt}}" width="48px">{% endif %}
+        <h4 class="card-title">{{include.params.title}}</h4>
+        <p class="card-text">{{include.params.text}}</p>
+    </div>
+    <div class="card-footer">
+        <div class="btn btn-primary">{{include.params.button}}</div>
+    </div>
+</a>
